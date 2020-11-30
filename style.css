@@ -1,0 +1,300 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    width: 38%;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+
+/* ##### Header Area Starts ##### */
+
+.header-area {
+    color: #ffffff;
+    background-color: #24242E;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-area .logo-area img {
+    width: 70px;
+    padding: 20px 0;
+}
+
+.header-area .slogan h2 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-area .slogan p {
+    font-size: 9px;
+    line-height: 2em;
+}
+
+.next-section {
+	margin: 90px 0 10px 0;
+}
+
+.next-section a {
+    color: #ffffff;
+}
+
+.next-section a i {
+	border: 1px solid #FFFFFF;
+	font-size: 12px;
+	height: 12px;
+	width: 12px;
+	padding: 7px;
+	border-radius: 50%;
+}
+
+/* ##### Header Area Ends ##### */
+
+/* ##### About Us Starts ##### */
+
+.about-us {
+    padding: 65px 0;
+    background-image: url('img/background.png');
+    color: #464B4F;
+    text-align: center;
+    overflow: hidden;
+}
+
+.about-us .about-pr {
+    padding-bottom: 5px;
+}
+
+.about-us h2 {
+    padding-top: 15px;
+}
+
+.col-md-4 {
+    width: 31.33%;
+	margin: 0 1%;
+	float: left;
+	overflow: hidden;
+}
+
+.about-us .col-md-4 h6 {
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.about-us .col-md-4 p {
+    font-size: 8px;
+    text-align: left;
+}
+
+/* ##### About Us Ends ##### */
+
+/* ##### Portfolio Starts ##### */
+
+.portfolio {
+    color: #ffffff;
+    background-color: #24242E;
+    padding: 65px 0 45px 0;
+    text-align: center;
+}
+
+.portfolio h2 {
+    margin-top: 0px;
+}
+
+.portfolio a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.work-category ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.work-category ul li {
+    display: inline-block;
+}
+
+.work-category ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: capitalize;
+	display: inline-block;
+	border-bottom: 2px solid transparent;
+    padding: 3px 0;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+
+.work-category ul li a:hover {
+	border-bottom: 2px solid #7B78C9;
+}
+.work-category ul .current a {
+	border-bottom: 2px solid #7B78C9;
+}
+
+.work-column {
+    overflow: hidden;
+}
+
+.work-column .col-md-4 {
+    margin-top: 30px;
+}
+
+.work-column .col-md-4 h6 {
+    margin: 5px 0 0 0;
+}
+
+.col-md-4 img {
+    width: 100%;
+}
+
+.work-column .work-title {
+    color: #818baa;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.portfolio .button {
+    margin-top: 20px;
+}
+
+.button {
+	text-align: center;
+}
+
+.button a {
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #7B78C9;
+    padding: 7px 22px;
+    text-transform: capitalize;
+    font-size: 10px;
+    border-radius: 4px;
+}
+
+.button a:hover {
+    background: #2D827F;
+    transition: 0.3s;
+}
+
+/* ##### Portfolio Ends ##### */
+
+/* ##### Phptography Starts ##### */
+
+.photography {
+    padding: 65px 0 45px 0;
+    background-image: url('img/background.png');
+    color: #464B4F;
+    text-align: center;
+    overflow: hidden;
+}
+
+.photo-gallery {
+    padding: 10px 0 40px 0;
+    overflow: hidden;
+}
+
+.photography .button a {
+    padding: 7px 18px
+}
+
+/* ##### Photography Ends ##### */
+
+/* ##### Subscribe Starts ##### */
+
+
+.subscribe {
+    color: #ffffff;
+    background-color: #24242E;
+    text-align: center;
+    padding: 140px 0;
+}
+
+.subscribe img {
+    width: 50px;
+    height: auto;
+}
+
+.infinite {
+    padding-bottom: 15px;
+}
+
+.subscribe p {
+    font-size: 9px;
+    line-height: 2em;
+    padding-bottom: 15px;
+}
+
+.subscribe form input {
+	color: #666666;
+    font-size: 8px;
+    padding: 10px 45px;
+    border-radius: 3px;
+    border: none;
+    font-family: Segoe UI;
+}
+
+
+.subscribe input[type="text"] {
+    margin-right: 10px;
+}
+
+.subscribe input[type="submit"] {
+	background: #7B78C9;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.subscribe input[type="submit"]:hover {
+    background: #2D827F;
+    transition: 0.3s;
+}
+
+/* ##### Subscribe Ends ##### */
+
+/* ##### Footer Area Starts ##### */
+
+.footer-area {
+	padding: 50px 0;
+	background-image: url('img/background.png');
+}
+
+.social-profiles ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.social-profiles ul li {
+	display: inline;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.social-profiles ul li a {
+	color: #DBDBDB;
+}
+
+.copyright p {
+	text-align: center;
+    color: #7c7c7c;
+    font-size: 10px;
+    line-height: 2em;
+    padding-top: 30px;
+}
+
+/* ##### Footer Area Ends ##### */
+
+
+
